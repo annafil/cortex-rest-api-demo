@@ -3,17 +3,22 @@
 
 This repository shows you how to build a simple chat app using Snowflake's API. 
 
-<img width="500" alt="Screenshot 2025-03-07 at 12 04 05 AM" src="https://github.com/user-attachments/assets/889a971b-2c04-4b57-a43d-a1c626b290bf" />
+<img width="500" alt="Screenshot 2025-04-15 at 9 07 42 PM" src="https://github.com/user-attachments/assets/77d46ef8-a4c8-481e-b07c-a81f4c6bbaed" />
 
 ## Instructions 
 
-1. Clone this repo. 
+1. Clone this repo.
 
-2. Sign up for an account [here](https://signup.snowflake.com/?utm_source=github&utm_campaign=cortex-rest-api-demo). Activate your account and you should see a welcome screen. 
+2. Create a folder called `.streamlit` and a file called `secrets.toml` inside.
 
-3. Create a folder called `.streamlit` and a file called `secrets.toml` inside.
+3. Sign up for a new Snowflake account [here](https://signup.snowflake.com/?utm_source=github&utm_campaign=cortex-rest-api-demo). Activate your account by e-mail, and you should see a welcome screen. 
   
-4. Click on your name in the bottom left corner, and select `Connect a tool to Snowflake`. Use the dialog to fill out your information, replacing values in `[]` like so: 
+4. Click on your name in the bottom left corner, and select `Connect a tool to Snowflake`.
+
+ <img width="294" alt="Screenshot 2025-04-15 at 9 08 27 PM" src="https://github.com/user-attachments/assets/d485f628-e397-4869-82d7-c5e1c1af24c0" />
+  
+  
+Copy and paste the below into your `secrets.toml` file, replacing values in `[]` using the connect dialog information above: 
 
   ```
 [snowflake]
@@ -24,6 +29,6 @@ role = "[Role]"
 host = "[Account/Server URL]"
 ```
 
-9. Run `pip install -r requirements.txt` to make sure you have all the dependencies working.
+5. Run `pip install -r requirements.txt` to make sure you have all the dependencies working.
 
-10. Run `streamlit run streamlit.app` and you should see a simple chat app ready to chat with you! Try changing the model used: `mistral-large2`, `claude-3-5-sonnet` or `llama3.1-70b` and compare the chat interaction! 
+6. Run `streamlit run streamlit.app` and you should see a simple chat app ready to chat with you! Try changing the model used: `mistral-large2`, `claude-3-5-sonnet` or `llama3.1-70b` and compare the chat interaction! 
