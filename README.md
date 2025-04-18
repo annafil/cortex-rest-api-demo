@@ -11,7 +11,7 @@ This repository shows you how to build a simple chat app using Snowflake's API.
 
 2. Create a folder called `.streamlit` and a file called `secrets.toml` inside.
 
-3. Sign up for a new Snowflake account [here](https://mlh.link/snowflake). Activate your account by e-mail, and you should see a welcome screen. 
+3. Sign up for a new Snowflake account [here](https://mlh.link/snowflake-signup). Activate your account by e-mail, and you should see a welcome screen. 
   
 4. Click on your name in the bottom left corner, and select `Connect a tool to Snowflake`.
 
