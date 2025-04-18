@@ -3,19 +3,25 @@
 
 This repository shows you how to build a simple chat app using Snowflake's API. 
 
-<img width="500" alt="Screenshot 2025-04-15 at 9 07 42 PM" src="https://github.com/user-attachments/assets/77d46ef8-a4c8-481e-b07c-a81f4c6bbaed" />
+<img width="500" alt="App Example" src="https://github.com/user-attachments/assets/77d46ef8-a4c8-481e-b07c-a81f4c6bbaed" />
 
 ## Instructions 
 
 1. Clone this repo.
 
-2. Sign up for a new Snowflake account [here](https://mlh.link/snowflake-signup). Activate your account by e-mail, and you should see a welcome screen. 
+2. Sign up for a new Snowflake account [here](https://mlh.link/snowflake-signup). Activate your account by e-mail (see screenshot below), pick a username and password, and you should see a welcome screen.
+
+<img width="500" src="https://github.com/user-attachments/assets/1a11cd4c-514d-4ac0-98b2-5e2207dc6698" />
+
   
-3. Click on your name in the bottom left corner, and select `Connect a tool to Snowflake`.
+4. Click on your name in the bottom left corner, and select `Connect a tool to Snowflake`.
 
  <img width="294" alt="Screenshot 2025-04-15 at 9 08 27 PM" src="https://github.com/user-attachments/assets/d485f628-e397-4869-82d7-c5e1c1af24c0" />
   
   Use the information in the connect dialog to fill in your `secrets.toml` file: 
+  
+
+ <img width="500" src="https://github.com/user-attachments/assets/c4839cb9-585f-4af7-a7fb-40c328153786" />
 
   ```
 [snowflake]
